@@ -1,0 +1,11 @@
+<h3>{{title}}</h3>
+
+
+<div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex">
+        <a class="p-2 text-muted" style="text-decoration: none; width: 160px; font-size: 20px;"
+            routerLink="/product">Tüm Ürünler</a>
+        <a *ngFor="let kategori of categories" class="p-2 text-muted" style="text-decoration: none; width: 150px; font-size: 20px;"
+            routerLink="/product/category/{{kategori.id}}">{{kategori.name}}</a>
+    </nav>
+</div>

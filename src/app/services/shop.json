@@ -1,0 +1,81 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": [
+        "laptop"
+      ]
+    },
+    {
+      "id": 2,
+      "name": [
+        "bilgisayar"
+      ]
+    },
+    {
+      "id": 3,
+      "name": [
+        "buzdolabı"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "Arçelik",
+      "description": "arçelik büyük kasa buzdolabı",
+      "imageUrl": "https://www.arcelik.com.tr/media/resize/7256120191_LO1_20220327_214740.png/2000Wx2000H/image.webp",
+      "price": "24000",
+      "categoryId": "3",
+      "id": 1
+    },
+    {
+      "name": "masaüstü rtx4090",
+      "description": "rtx4090 i5",
+      "imageUrl": "https://productimages.hepsiburada.net/s/423/300-443/110000454229217.jpg",
+      "price": "24000",
+      "categoryId": "2",
+      "id": 2
+    },
+    {
+      "name": "masaüstü 8g ram",
+      "description": "asus",
+      "imageUrl": "https://e-carpediem.com/wp-content/uploads/2020/04/izoly-m189-masa%C3%BCst%C3%BC-bilgisayar-i5-8gb.jpg",
+      "price": "14000",
+      "categoryId": "2",
+      "id": 3
+    },
+    {
+      "name": "hp",
+      "description": "hp laptop i5",
+      "imageUrl": "https://m.media-amazon.com/images/I/817xnvwK0PL._AC_UF1000,1000_QL80_.jpg",
+      "price": "16000",
+      "categoryId": "1",
+      "id": 4
+    },
+    {
+      "categoryId": "1",
+      "imageUrl": "https://cdn.akakce.com/x/hp/hp-victus-16-s0065nt-8w8a7ea-ryzen-7-7840hs-32-gb-1-tb-ssd-rtx4070-16-1-full-hd-notebook.jpg",
+      "name": "msi",
+      "description": "msi 2.nesil",
+      "price": "25000",
+      "id": 5
+    }
+  ]
+}
